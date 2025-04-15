@@ -1,0 +1,48 @@
+.Intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: baseline;
+
+    height: 22vh;
+    
+    
+    margin-left: 10vw;
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+}
+
+.Name {
+    font-size: 7vh;
+    font-weight: 700;
+}
+
+.Title {
+    font-size: 5vh;
+    font-style: italic;
+}
+
+.AboutMeButton {
+    height: 1.5vh;
+    width: 15vw;
+
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+
+    color: var(--orange);
+    font-weight: 700;
+}
+
+#Fleche {
+    transform: rotate(180deg);
+    margin-left: 1vw;
+    height: 100%;
+    transition: ease 0.7s;
+    opacity: 0;
+}
+
+.AboutMeButton:hover #Fleche {
+    transform: rotate(540deg);
+    opacity: 1;
+}

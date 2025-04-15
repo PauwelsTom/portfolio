@@ -1,0 +1,14 @@
+:root {
+    --debug: orange;
+
+    --blanc: white;
+    --noir: black;
+
+    --orange: #f4a261;
+
+    --bleu: #9AC8EB;
+    --bleu2: #35487d;
+    --bleu-fonce: #212E53;
+
+    --background-color: var(--white)
+}

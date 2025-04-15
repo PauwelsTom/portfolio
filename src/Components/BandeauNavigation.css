@@ -1,0 +1,50 @@
+.BandeauDiv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5vh;
+    width: 100vw;
+
+    padding-left: 1vw;
+    background-color: var(--blanc);
+    color: var(--noir);
+
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+
+    font-size: 2vh;
+
+    transition: ease 0.5s;
+
+    z-index: 1;
+}
+
+.atTheTop {
+    height: 10vh;
+    background-color: var(--bleu-fonce);
+    color: var(--blanc);
+    font-size: 3vh;
+}
+
+.NavigationElements {
+    padding-right: 1vw;
+    padding-left: 1vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    transition: ease 0.3s;
+}
+
+.NavigationElements:hover {
+    background-color: var(--blanc);
+    color: var(--bleu-fonce);
+}
+
+.ElementMidPage:hover {
+    background-color: var(--bleu-fonce);
+    color: var(--blanc);
+}

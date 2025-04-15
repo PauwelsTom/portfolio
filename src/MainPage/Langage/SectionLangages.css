@@ -1,0 +1,27 @@
+.SectionLangages {
+    margin-top: 10vh;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: var(--background-color);
+}
+
+.TitreLangage {
+    font-size: 8vh;
+    font-weight: 700;
+}
+
+.SousTitreLangage {
+
+    height: 15vh;
+    font-size: 5vh;
+    font-weight: 600;
+
+    margin-top: 4vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

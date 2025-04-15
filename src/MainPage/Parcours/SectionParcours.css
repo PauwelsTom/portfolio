@@ -1,0 +1,28 @@
+.SectionParcours {
+    margin-top: 20vh;
+}
+
+.Parcours {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    height: 100vh;
+
+    margin-top: 15vh;
+    margin-right: 10vw;
+}
+
+.TitreParcours {
+    font-size: 8vh;
+    font-weight: 700;
+}
+
+.LigneParcours {
+    width: 10vw;
+}
+
+.TextPacours {
+    width: 50vw;
+    margin-top: 2vh;
+}

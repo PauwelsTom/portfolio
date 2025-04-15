@@ -1,0 +1,11 @@
+:root {
+    --image-magie: url("https://stars-magic.com/wp-content/uploads/2020/06/magicien-cartes.png");
+    --image-penspinning: url("https://cdn.dribbble.com/userupload/25131350/file/original-aeeff6f3c56e87c61b9646c681f58e70.gif");
+    --image-sport: url("https://images.pond5.com/vector-illustration-triathlon-flat-design-illustration-087115208_iconl_wide_nowm.jpeg");
+    --image-karate: url("https://cdn-icons-png.flaticon.com/512/921/921664.png");
+    --image-rubik:url("../../public/Rubik.gif");
+    --image-batterie: url("https://cdn-icons-png.flaticon.com/512/4310/4310857.png");
+    --image-guitare: url("https://cdn-icons-png.flaticon.com/512/199/199401.png");
+    --image-astronomie: url("https://img.freepik.com/photos-premium/panorama-du-ciel-etoile-nuit-fond-voie-lactee-nombreuses-etoiles-brillantes-colorees_118086-5045.jpg");
+    --image-theatre: url("https://images.cinefil.com/assets/cine-small.jpg");
+}  

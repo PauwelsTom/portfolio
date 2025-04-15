@@ -1,0 +1,22 @@
+.IntroCalculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.TitleCalculator {
+    margin-top: 10vh;
+
+    font-size: 8vh;
+    font-weight: 800;
+}
+
+.DescriptionCalculator {
+    margin-top: 10vh;
+
+    font-size: 2.5vh;
+    font-weight: 500;
+
+    width: 60vw;
+}

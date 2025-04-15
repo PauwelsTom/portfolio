@@ -1,0 +1,87 @@
+
+.AboutMeElement {
+    height: 100%;
+    width: 100%;
+
+    border-radius: 1vw;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.TitreAboutMeElement {
+    opacity: 0;
+    font-size: 3vh;
+    height: 3vh;
+    border-radius: 2.5vh;
+    width: 110%;
+    background-color: lightgray;
+    transition: ease 0.5s;
+    padding: 1vh;
+}
+
+.AboutMeElement:hover .TitreAboutMeElement {
+    opacity: 1;
+}
+
+.Magie {
+    grid-area: Mag;
+
+    background-color: var(--noir);
+    background-image: var(--image-magie);
+}
+
+.Penspinning {
+    grid-area: Pen;
+
+    background-color: var(--blanc);
+    background-image: var(--image-penspinning);
+}
+
+.Sport {
+    grid-area: Spo;
+    
+    background-color: #265283;
+    background-image: var(--image-sport);
+}
+
+.Theatre {
+    grid-area: The;
+    background-color: black;
+
+    background-size: cover;
+    background-image: var(--image-theatre);
+}
+
+.Batterie {
+    grid-area: Bat;
+    background-color: blueviolet;
+    background-image: var(--image-batterie);
+}
+
+.Guitare {
+    grid-area: Gui;
+    background-color: pink;
+    background-image: var(--image-guitare);
+}
+
+
+.Rubik {
+    grid-area: Rub;
+    background-color: lightgray;
+    background-image: var(--image-rubik);
+}
+
+.Astronomie {
+    grid-area: Ast;
+    background-image: var(--image-astronomie);
+    background-size: cover;
+}
+
+.Karate {
+    grid-area: Kar;
+    
+    background-color: #7AA95C;
+    background-image: var(--image-karate);
+}

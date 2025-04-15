@@ -1,0 +1,27 @@
+.BoutDeParcours {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.TraitParcours {
+    height: 10vh;
+    width: 0vh;
+    border: 2px solid var(--bleu2);
+}
+
+.EndOfParcours {
+    margin-top: 0.5vh;
+    height: 0.5vh;
+}
+
+.PointParcours {
+    height: 2vh;
+    width: 2vh;
+    border: 4px solid var(--bleu2);
+    border-radius: 2vh;
+
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
