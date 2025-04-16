@@ -19,6 +19,7 @@ export const IconeLangage = {
 }
 
 export const ImageAboutMe = {
-    "Magie": "https://stars-magic.com/wp-content/uploads/2020/06/magicien-cartes.png",
-    
+    "Magie": "https://stars-magic.com/wp-content/uploads/2020/06/magicien-cartes.png",   
 }
+
+export const IconeChevronGauche = "/ChevronGauche.png";

@@ -1,0 +1,36 @@
+.BoutonRetourMainPage {
+    position: fixed;
+    top: 2vh;
+    left: 2vw;
+
+    background-color: var(--bleu);
+
+    /* border: 1px solid black; */
+    border-radius: min(3vh, 3vw);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.4); /* Ajout de l'ombre */
+
+    height: min(10vh, 10vw);
+    width: min(10vh, 10vw);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ImageRetourMainPage {
+    height: 80%;
+}
+
+.RetourMainPage-Link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    width: 100%;
+}
+
+.RetourMainPage-Link:visited,
+.RetourMainPage-Link:active,
+.RetourMainPage-Link:focus {
+    text-decoration: none;
+    color: inherit;
+}

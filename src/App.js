@@ -6,6 +6,7 @@ import { MainPage } from './MainPage/MainPage';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Calculator } from './PageCalculator/Calculator';
 import { ScrollToTop } from './Fonctions/ScrollToTop';
+import { Stocks } from './Stocks/Stocks';
 
 export class App extends Component {
   render() {
@@ -16,6 +17,7 @@ export class App extends Component {
           <Routes>
             <Route path="/" element={<MainPage />} />
             <Route path="/Projects/Calculator" element={<Calculator />} />
+            <Route path="/Projects/Stocks" element={<Stocks />} />
           </Routes>
         </Router>
       </div>

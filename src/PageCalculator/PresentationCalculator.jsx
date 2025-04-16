@@ -1,6 +1,6 @@
 import { Component } from "react";
 import "./PresentationCalculator.css"
-import { ImageDescription } from "./ImageDescription";
+import { ImageDescription } from "../Components/ImageDescription";
 
 export class PresentationCalculator extends Component {
     constructor(props) {
