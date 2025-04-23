@@ -17,12 +17,16 @@ export class Intro extends Component {
     render() {
         return (
             <div className="Intro">
-                <span className="Name">Hi, I'm Tom.</span>
-                <span className="Title">Web Developer</span>
-                <div className="AboutMeButton" onClick={() => this.ScrollToSection("AboutMe")}>
-                    <span>About me</span>
-                    <img id="Fleche" src={IconeFlecheOrange} alt="→"/>
+                <div className="IntroTextDiv">
+                    <span className="Name">Hi, I'm Tom.</span>
+                    <span className="Title">Web Developer</span>
+                    <div className="AboutMeButton" onClick={() => this.ScrollToSection("AboutMe")}>
+                        <span>About me</span>
+                        <img id="Fleche" src={IconeFlecheOrange} alt="→"/>
+                    </div>
                 </div>
+
+                <img className="PhotoMoi" src="/Moi.jpg" alt="Me"/>
             </div>
         );
     }
