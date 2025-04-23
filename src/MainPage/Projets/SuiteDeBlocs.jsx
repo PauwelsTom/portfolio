@@ -11,6 +11,7 @@ export class SuiteDeBlocs extends Component {
     render() {
         return (
             <div className="SuiteDeBlocs" id="Projets">
+                <u className="ProjetsTitre">Projets</u>
                 <BlocAvecImage gauche={false} image={ImageCaisseEnregistreuse} titre="Calculator for a retailer" texte="Custom calculator for a retailer" link="/Projects/Calculator"/>
                 <BlocAvecImage gauche={true}  image={ImageStocks} titre="Stock App for retailer" texte="Custom stock managing App for retailer" link="/Projects/Stocks"/>
                 <BlocAvecImage gauche={false} image={Image1000Bornes} titre="1000Bornes score counting App" texte="App for 1000Bornes counting" link="/Projects/1000Bornes"/>

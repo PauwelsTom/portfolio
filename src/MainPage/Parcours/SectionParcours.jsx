@@ -11,7 +11,7 @@ export class SectionParcours extends Component {
     render() {
         return (
             <div className="SectionParcours" id="Parcours">
-                <span className="TitreParcours">Parcours</span>
+                <u className="TitreParcours">Parcours</u>
                 <div className="Parcours">
                     <div className="LigneParcours">
                         <BoutDeParcours />

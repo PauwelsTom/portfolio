@@ -23,3 +23,7 @@ export const ImageAboutMe = {
 }
 
 export const IconeChevronGauche = "/ChevronGauche.png";
+export const IconeMail = "https://cdn-icons-png.flaticon.com/512/561/561127.png";
+export const IconeLinkedin = "https://cdn-icons-png.flaticon.com/512/1384/1384088.png";
+export const IconeGithub = "https://cdn-icons-png.flaticon.com/512/25/25231.png";
+export const IconePhone = "https://cdn-icons-png.flaticon.com/512/94/94915.png";

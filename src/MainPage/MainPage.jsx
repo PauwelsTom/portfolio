@@ -6,6 +6,7 @@ import { SectionLangages } from "./Langage/SectionLangages";
 import { SuiteDeBlocs } from "./Projets/SuiteDeBlocs";
 import { Intro } from "./Intro";
 import { BandeauNavigation } from "../Components/BandeauNavigation";
+import { Contact } from "./Contact/Contact";
 
 export class MainPage extends Component {
     constructor(props) {
@@ -24,6 +25,7 @@ export class MainPage extends Component {
                     <SectionLangages />
                     <SectionAboutMe />
                     <SectionParcours />
+                    <Contact />
                 </div>
             </div>
         );

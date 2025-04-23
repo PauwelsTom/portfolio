@@ -10,7 +10,7 @@ export class SectionAboutMe extends Component {
     render() {
         return (
             <div className="SectionAboutMe" id="AboutMe">
-                <span className="TitreAboutMe">About me</span>
+                <u className="TitreAboutMe">About me</u>
                 <div className="GrilleAboutMe">
                     <AboutMeElement name="Magician"/>
                     <AboutMeElement name="Penspinning"/>
