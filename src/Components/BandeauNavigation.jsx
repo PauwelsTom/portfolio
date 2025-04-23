@@ -54,6 +54,7 @@ export class BandeauNavigation extends Component {
                 <div className={this.get_element_class()} onClick={() => this.ScrollToSection("Languages")}>Languages</div>
                 <div className={this.get_element_class()} onClick={() => this.ScrollToSection("AboutMe")}>About</div>
                 <div className={this.get_element_class()} onClick={() => this.ScrollToSection("Parcours")}>Parcours</div>
+                <div className={this.get_element_class()} onClick={() => this.ScrollToSection("Contact")}>Contact</div>
             </div>
         );
     }

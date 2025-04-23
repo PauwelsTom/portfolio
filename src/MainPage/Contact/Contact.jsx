@@ -5,7 +5,7 @@ import { IconeGithub, IconeLinkedin, IconeMail, IconePhone } from "../../Data/Im
 export class Contact extends Component {
     render() {
         return (
-            <div className="ContactDiv">
+            <div className="ContactDiv" id="Contact">
                 <u className="ContactTitre">Contact</u>
 
                 <div className="ContactListDiv">
