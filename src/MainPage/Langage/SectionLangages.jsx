@@ -12,7 +12,7 @@ export class SectionLangages extends Component {
             <div className="SectionLangages" id="Languages">
                 <u className="TitreLangage">Languages</u>
 
-                <span className="SousTitreLangage">Web</span>
+                <span className="TitreSectionLangage">Web</span>
 
                 <div className="SousTitreLangage">
                     <LangageElement langage="HTML"/>
@@ -24,7 +24,7 @@ export class SectionLangages extends Component {
                     <LangageElement langage="SQL"/>
                 </div>
 
-                <span className="SousTitreLangage">Others</span>
+                <span className="TitreSectionLangage">Others</span>
 
                 <div className="SousTitreLangage">
                     <LangageElement langage="C"/>

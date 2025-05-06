@@ -1,27 +1,63 @@
+/* PC */
+@media screen and (min-width: 768px) {
+    .SectionLangages {
+        height: 100vh;
+    }
+    
+    .SousTitreLangage {
+
+        height: 15vh;
+        font-size: 5vh;
+        font-weight: 600;
+    
+        margin-top: 4vh;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* TELEPHONE */
+@media screen and (max-width: 768px) {
+    .SousTitreLangage {
+        font-size: 5vh;
+        font-weight: 600;
+    
+        margin-top: 4vh;
+    
+        display: grid;
+        grid-template-columns: repeat(3, 25vw);
+        grid-auto-rows: 25vh;
+        
+        gap: 2vh;
+        margin-left: 12.5vw;
+    }
+
+    .SectionLangages {
+        padding-bottom: 10vh;
+    }
+}
+
+.TitreSectionLangage {
+    margin-top: 4vh;
+    font-size: 5vh;
+    font-weight: 600;
+}
+
 .SectionLangages {
     margin-top: 10vh;
 
     width: 100vw;
-    height: 100vh;
 
     background-color: var(--background-color);
+    
+    display: flex;
+    flex-direction: column;
 }
 
 .TitreLangage {
     font-size: 8vh;
     font-weight: 700;
-}
-
-.SousTitreLangage {
-
-    height: 15vh;
-    font-size: 5vh;
-    font-weight: 600;
-
-    margin-top: 4vh;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }

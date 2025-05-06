@@ -1,13 +1,39 @@
+/* PC */
+@media screen and (min-width: 768px) {
+    .BlocAvecImage {
+        height: 50vh;
+        flex-direction: row;
+    }
+
+    .Reverse {
+        flex-direction: row-reverse;
+    }
+
+    .ImageBloc {
+        height: 100%;
+    }
+}
+
+/* TELEPHONE */
+@media screen and (max-width: 768px) {
+    .BlocAvecImage {
+        height: 75vh;
+        flex-direction: column;
+    }
+
+    .ImageBloc {
+        width: 100%;
+    }
+}
+
 .BlocAvecImage {
     width: 100vw;
-    height: 50vh;
 
     background-color: var(--background-color);
 
     margin-bottom: 5vh;
 
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 
@@ -16,10 +42,6 @@
 
 .BlocAvecImage:hover {
     background-color: var(--bleu);
-}
-
-.Reverse {
-    flex-direction: row-reverse;
 }
 
 .TextInBloc {
@@ -42,9 +64,7 @@
     font-style: italic;
 }
 
-.ImageBloc {
-    height: 100%;
-}
+
 
 .BlocAvecImage-Link {
     text-decoration: none;

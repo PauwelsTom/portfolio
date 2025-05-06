@@ -1,9 +1,50 @@
+/* PC */
+@media screen and (min-width: 768px) {
+    .GrilleAboutMe {
+        margin-top: 10vh;
+        display: grid;
+        grid-template-columns: repeat(6, 15vw);
+        grid-template-rows: repeat(4, 20vh);
+        grid-template-areas: 
+            "Mag Mag Pen Kar Rub Rub"
+            "Mag Mag Bat Bat Rub Rub"
+            "Spo Spo Spo Gui The The"
+            "Spo Spo Spo Ast Ast Ast"
+        ;
+        row-gap: 1vh;
+        column-gap: 1vw;
+    }
+}
+
+/* TELEPHONE */
+@media screen and (max-width: 768px) {
+    .GrilleAboutMe {
+        margin-top: 10vh;
+        display: grid;
+        grid-template-columns: repeat(4, 20vw);
+        grid-template-rows: repeat(4, 15vh) 10vh 10vh;
+        grid-template-areas: 
+            /*  "Mag Mag Pen Kar Rub Rub"
+                "Mag Mag Bat Bat Rub Rub"
+                "Spo Spo Spo Gui The The"
+                "Spo Spo Spo Ast Ast Ast" */
+
+            "Spo Spo Spo Gui"
+            "Bat Bat The The"
+            "Mag Mag Mag Mag"
+            "Ast Ast Ast Kar"
+            "Rub Rub Pen Pen"
+            "Rub Rub Pen Pen"
+        ;
+        row-gap: 1vh;
+        column-gap: 1vw;
+    }
+}
+
 .SectionAboutMe {
     height: 110vh;
     width: 100vw;
 
-    /* background-color: var(--debug); */
-   
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,19 +56,4 @@
     font-weight: 700;
 
     margin-bottom: 5vh;
-}
-
-.GrilleAboutMe {
-    margin-top: 10vh;
-    display: grid;
-    grid-template-columns: repeat(6, 15vw);
-    grid-template-rows: repeat(4, 20vh);
-    grid-template-areas: 
-        "Mag Mag Pen Kar Rub Rub"
-        "Mag Mag Bat Bat Rub Rub"
-        "Spo Spo Spo Gui The The"
-        "Spo Spo Spo Ast Ast Ast"
-    ;
-    row-gap: 1vh;
-    column-gap: 1vw;
 }

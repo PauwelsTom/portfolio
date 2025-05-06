@@ -21,7 +21,7 @@ export class Intro extends Component {
                     <span className="Name">Hi, I'm Tom.</span>
                     <span className="Title">Web Developer</span>
                     <div className="AboutMeButton" onClick={() => this.ScrollToSection("AboutMe")}>
-                        <span>About me</span>
+                        <span className="AboutMeText">About me</span>
                         <img id="Fleche" src={IconeFlecheOrange} alt="→"/>
                     </div>
                 </div>

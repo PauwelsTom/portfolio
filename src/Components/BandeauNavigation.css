@@ -1,3 +1,38 @@
+/* PC */
+@media screen and (min-width: 768px) {
+
+    .BandeauDiv {
+        font-size: 2vh;
+    }
+    
+    .atTheTop {
+        font-size: 3vh;
+    }
+    
+    .NavigationElements {
+        padding-right: 1vw;
+        padding-left: 1vw;
+    }
+}
+
+/* TELEPHONE */
+@media screen and (max-width: 768px) {
+
+    .BandeauDiv {
+        font-size: 1.5vh;
+    }
+    
+    .atTheTop {
+        font-size: 2vh;
+    }
+    
+    .NavigationElements {
+        padding-right: 2vw;
+        padding-left: 2vw;
+    }
+    
+}
+
 .BandeauDiv {
     position: fixed;
     top: 0;
@@ -13,8 +48,6 @@
     align-items: center;
     justify-content: baseline;
 
-    font-size: 2vh;
-
     transition: ease 0.5s;
 
     z-index: 1;
@@ -24,13 +57,9 @@
     height: 10vh;
     background-color: var(--bleu-fonce);
     color: var(--blanc);
-    font-size: 3vh;
 }
 
 .NavigationElements {
-    padding-right: 1vw;
-    padding-left: 1vw;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,4 +76,4 @@
 .ElementMidPage:hover {
     background-color: var(--bleu-fonce);
     color: var(--blanc);
-}
+}    
