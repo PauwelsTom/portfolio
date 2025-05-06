@@ -1,3 +1,44 @@
+/* PC */
+@media screen and (min-width: 768px) {
+    .TitreParcoursEtape {
+        font-size: 5vh;
+        font-weight: 700;
+    }
+    
+    .DateParcoursEtape {
+        font-size: 4vh;
+        font-weight: 500;
+        color: gray;
+    }
+
+    .TexteParcoursEtape {
+        font-size: 3vh;
+        font-weight: 400;
+        font-style: italic;
+    }
+}
+
+/* TELEPHONE */
+@media screen and (max-width: 768px) {
+    .TitreParcoursEtape {
+        font-size: 4vh;
+        font-weight: 700;
+    }
+    
+    .DateParcoursEtape {
+        font-size: 2vh;
+        font-weight: 500;
+        color: gray;
+    }
+
+    .TexteParcoursEtape {
+        font-size: 2vh;
+        font-weight: 400;
+        font-style: italic;
+    }
+}
+
+
 .TextParcoursDiv {
     height: 24vh;
     display: flex;
@@ -6,20 +47,5 @@
     align-items: center;
 }
 
-.TitreParcoursEtape {
-    font-size: 5vh;
-    font-weight: 700;
-}
 
-.DateParcoursEtape {
-    font-size: 4vh;
-    font-weight: 500;
-    color: gray;
-}
-
-.TexteParcoursEtape {
-    font-size: 3vh;
-    font-weight: 400;
-    font-style: italic;
-}
 
